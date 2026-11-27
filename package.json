@@ -1,0 +1,21 @@
+{
+  "name": "engineering-foundations",
+  "private": true,
+  "packageManager": "pnpm@10.34.9",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "learn": "node scripts/learn.ts",
+    "progress": "node scripts/progress.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.4",
+    "typescript": "~5.9.3",
+    "vitest": "^4.1.12"
+  }
+}

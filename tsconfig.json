@@ -4,9 +4,7 @@
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "lib": [
-      "ES2023",
-      "DOM",
-      "DOM.Iterable"
+      "ES2023"
     ],
     "strict": true,
     "noUncheckedIndexedAccess": true,
@@ -15,13 +13,11 @@
     "types": [
       "node"
     ],
-    "allowImportingTsExtensions": true,
-    "jsx": "react-jsx"
+    "allowImportingTsExtensions": true
   },
   "include": [
     "weeks",
     "scripts",
-    "vitest.config.ts",
-    "vitest.setup.ts"
+    "vitest.config.ts"
   ]
 }

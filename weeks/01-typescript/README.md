@@ -10,7 +10,7 @@ Be comfortable with your tools on day one, then write correct, readable TypeScri
 
 | Day | Focus |
 | -- | -- |
-| Monday | Terminal, Git, GitHub, VS Code; install Node 24 and pnpm; clone this repository and open your first pull request |
+| Monday | Terminal, Git, GitHub, VS Code; install Node 24, pnpm and Docker Desktop; clone this repository and open your first pull request |
 | Tuesday | Variables, conditions, loops, functions, arrays, objects, strings |
 | Wednesday | Types, interfaces, unions, narrowing, generics |
 | Thursday | Errors, promises, `async`/`await`, JSON |

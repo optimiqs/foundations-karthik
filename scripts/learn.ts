@@ -12,7 +12,7 @@ console.log("");
 
 if (next === undefined) {
   console.log("  Every exercise is solved. Brilliant work.");
-  console.log("  Next: the week 3 project in weeks/03-nextjs with your mentor.");
+  console.log("  Next: the week 3 project in weeks/03-nestjs.");
   console.log("");
   process.exit(0);
 }

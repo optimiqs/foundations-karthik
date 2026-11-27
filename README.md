@@ -1,6 +1,6 @@
 # Engineering foundations
 
-A one-month programme that gets you ready to work in the Optimiq web codebase. It covers only what that codebase uses: TypeScript, React and Next.js, with data fetching and forms. In the last week you ship real work.
+A one-month programme that gets you ready to work on the Optimiq backend. It covers only what our backend uses: TypeScript, NestJS, PostgreSQL with Drizzle, GraphQL and NATS. In the last week you ship real work.
 
 ## Start here
 
@@ -29,9 +29,9 @@ Every push to GitHub updates your progress table in the **Actions** tab.
 | Week | Dates | Focus | You finish with |
 | -- | -- | -- | -- |
 | [1. TypeScript](weeks/01-typescript) | 30 Nov – 4 Dec | Tools, the language, types, async code, state machines | 9 exercises |
-| [2. React](weeks/02-react) | 7 Dec – 11 Dec | Components, state, forms, hooks, testing | 4 exercises |
-| [3. Next.js](weeks/03-nextjs) | 14 Dec – 18 Dec | App Router, server and client components, data fetching | A small clinic app |
-| [4. Optimiq web](weeks/04-optimiq) | 21 Dec – 24 Dec | Our codebase, our conventions, your first real pull request | Merged work in production code |
+| [2. Backend fundamentals](weeks/02-backend) | 7 Dec – 11 Dec | Money in cents, validating input, tenant safety, processing once, pagination, SQL | 5 exercises |
+| [3. NestJS and PostgreSQL](weeks/03-nestjs) | 14 Dec – 18 Dec | NestJS, PostgreSQL, Drizzle, REST and GraphQL, Docker | An appointments API |
+| [4. NATS and our backend](weeks/04-optimiq) | 21 Dec – 24 Dec | Messaging with NATS, then our codebase and your first pull request | A merged pull request |
 
 ## Every day
 
@@ -61,6 +61,6 @@ In weeks 1 and 2, use AI only to **explain** things, never to write the exercise
 ## Progress
 
 - [ ] Week 1: TypeScript
-- [ ] Week 2: React
-- [ ] Week 3: Next.js
-- [ ] Week 4: Optimiq web
+- [ ] Week 2: Backend fundamentals
+- [ ] Week 3: NestJS and PostgreSQL
+- [ ] Week 4: NATS and our backend

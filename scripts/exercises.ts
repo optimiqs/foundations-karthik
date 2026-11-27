@@ -14,7 +14,7 @@ const root = join(import.meta.dirname, "..");
 
 const phaseTitles: Record<string, string> = {
   "01-typescript": "Week 1 · TypeScript",
-  "02-react": "Week 2 · React",
+  "02-backend": "Week 2 · Backend fundamentals",
 };
 
 export function phaseTitle(phase: string): string {

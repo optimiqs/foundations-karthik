@@ -15,7 +15,7 @@ const solved = exercises.filter((exercise) => exercise.solved).length;
 if (markdown) {
   console.log(`## Progress: ${solved} of ${exercises.length} exercises solved`);
   console.log("");
-  console.log("| Phase | Progress | Solved |");
+  console.log("| Week | Progress | Solved |");
   console.log("| -- | -- | -- |");
   for (const row of rows) {
     console.log(`| ${row.title} | \`${bar(row.done, row.total)}\` | ${row.done} / ${row.total} |`);

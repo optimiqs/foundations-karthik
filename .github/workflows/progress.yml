@@ -7,7 +7,7 @@ on:
 
 jobs:
   progress:
-    runs-on: [self-hosted, linux, arm64, optimiqs, 2vcpu, 8gb, "${{ github.event_name == 'push' && 'optimiqs-cache-trusted' || 'optimiqs-cache-untrusted' }}"]
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4

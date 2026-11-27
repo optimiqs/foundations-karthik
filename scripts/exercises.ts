@@ -13,9 +13,8 @@ export interface Exercise {
 const root = join(import.meta.dirname, "..");
 
 const phaseTitles: Record<string, string> = {
-  "01-typescript": "Phase 1 · TypeScript",
-  "02-oop": "Phase 2 · Object-oriented design",
-  "03-dsa": "Phase 3 · Data structures",
+  "01-typescript": "Week 1 · TypeScript",
+  "02-react": "Week 2 · React",
 };
 
 export function phaseTitle(phase: string): string {
@@ -24,7 +23,7 @@ export function phaseTitle(phase: string): string {
 
 function exerciseFolders(): { phase: string; name: string; folder: string }[] {
   return Object.keys(phaseTitles).flatMap((phase) => {
-    const base = join(root, "phases", phase, "exercises");
+    const base = join(root, "weeks", phase, "exercises");
     return readdirSync(base, { withFileTypes: true })
       .filter((entry) => entry.isDirectory())
       .map((entry) => entry.name)
@@ -57,7 +56,7 @@ export function relativePath(path: string): string {
 }
 
 export function solutionFile(folder: string): string {
-  const file = readdirSync(folder).find((name) => name.endsWith(".ts") && !name.endsWith(".test.ts"));
+  const file = readdirSync(folder).find((name) => /\.tsx?$/.test(name) && !/\.test\.tsx?$/.test(name));
   return join(folder, file ?? "");
 }
 
